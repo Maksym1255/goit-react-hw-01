@@ -1,0 +1,22 @@
+.friendItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.friendName {
+  font-weight: 700;
+}
+
+.statusOnline {
+  color: green;
+  font-size: 0.8em;
+}
+
+.statusOffline {
+  color: red;
+  font-size: 0.8em;
+}
